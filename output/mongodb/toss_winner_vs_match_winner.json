@@ -1,0 +1,107 @@
+[
+  {
+    "_id": "Mumbai Indians",
+    "toss_wins": 151,
+    "matches_won": 82,
+    "team": "Mumbai Indians",
+    "conversion_rate": 54.3
+  },
+  {
+    "_id": "Chennai Super Kings",
+    "toss_wins": 128,
+    "matches_won": 78,
+    "team": "Chennai Super Kings",
+    "conversion_rate": 60.94
+  },
+  {
+    "_id": "Kolkata Knight Riders",
+    "toss_wins": 128,
+    "matches_won": 71,
+    "team": "Kolkata Knight Riders",
+    "conversion_rate": 55.47
+  },
+  {
+    "_id": "Royal Challengers Bengaluru",
+    "toss_wins": 128,
+    "matches_won": 66,
+    "team": "Royal Challengers Bengaluru",
+    "conversion_rate": 51.56
+  },
+  {
+    "_id": "Delhi Capitals",
+    "toss_wins": 138,
+    "matches_won": 64,
+    "team": "Delhi Capitals",
+    "conversion_rate": 46.38
+  },
+  {
+    "_id": "Rajasthan Royals",
+    "toss_wins": 127,
+    "matches_won": 61,
+    "team": "Rajasthan Royals",
+    "conversion_rate": 48.03
+  },
+  {
+    "_id": "Punjab Kings",
+    "toss_wins": 122,
+    "matches_won": 52,
+    "team": "Punjab Kings",
+    "conversion_rate": 42.62
+  },
+  {
+    "_id": "Sunrisers Hyderabad",
+    "toss_wins": 95,
+    "matches_won": 41,
+    "team": "Sunrisers Hyderabad",
+    "conversion_rate": 43.16
+  },
+  {
+    "_id": "Deccan Chargers",
+    "toss_wins": 43,
+    "matches_won": 19,
+    "team": "Deccan Chargers",
+    "conversion_rate": 44.19
+  },
+  {
+    "_id": "Gujarat Titans",
+    "toss_wins": 29,
+    "matches_won": 19,
+    "team": "Gujarat Titans",
+    "conversion_rate": 65.52
+  },
+  {
+    "_id": "Lucknow Super Giants",
+    "toss_wins": 24,
+    "matches_won": 13,
+    "team": "Lucknow Super Giants",
+    "conversion_rate": 54.17
+  },
+  {
+    "_id": "Gujarat Lions",
+    "toss_wins": 15,
+    "matches_won": 10,
+    "team": "Gujarat Lions",
+    "conversion_rate": 66.67
+  },
+  {
+    "_id": "Rising Pune Supergiant",
+    "toss_wins": 13,
+    "matches_won": 8,
+    "team": "Rising Pune Supergiant",
+    "conversion_rate": 61.54
+  },
+  {
+    "_id": "Kochi Tuskers Kerala",
+    "toss_wins": 8,
+    "matches_won": 4,
+    "team": "Kochi Tuskers Kerala",
+    "conversion_rate": 50.0
+  },
+  {
+    "_id": "Pune Warriors",
+    "toss_wins": 20,
+    "matches_won": 3,
+    "team": "Pune Warriors",
+    "conversion_rate": 15.0
+  }
+]

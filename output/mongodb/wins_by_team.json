@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "Mumbai Indians",
+    "wins": 151
+  },
+  {
+    "_id": "Chennai Super Kings",
+    "wins": 142
+  },
+  {
+    "_id": "Kolkata Knight Riders",
+    "wins": 135
+  },
+  {
+    "_id": "Royal Challengers Bengaluru",
+    "wins": 132
+  },
+  {
+    "_id": "Punjab Kings",
+    "wins": 119
+  },
+  {
+    "_id": "Delhi Capitals",
+    "wins": 118
+  },
+  {
+    "_id": "Rajasthan Royals",
+    "wins": 114
+  },
+  {
+    "_id": "Sunrisers Hyderabad",
+    "wins": 93
+  },
+  {
+    "_id": "Gujarat Titans",
+    "wins": 37
+  },
+  {
+    "_id": "Lucknow Super Giants",
+    "wins": 30
+  },
+  {
+    "_id": "Deccan Chargers",
+    "wins": 29
+  },
+  {
+    "_id": null,
+    "wins": 23
+  },
+  {
+    "_id": "Rising Pune Supergiant",
+    "wins": 15
+  },
+  {
+    "_id": "Gujarat Lions",
+    "wins": 13
+  },
+  {
+    "_id": "Pune Warriors",
+    "wins": 12
+  },
+  {
+    "_id": "Kochi Tuskers Kerala",
+    "wins": 6
+  }
+]

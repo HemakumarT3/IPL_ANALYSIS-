@@ -1,0 +1,2067 @@
+[
+  {
+    "_id": {
+      "venue": "ACA-VDCA Cricket Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "ACA-VDCA Cricket Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "ACA-VDCA Cricket Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "ACA-VDCA Cricket Stadium",
+      "team": "Rising Pune Supergiant"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "ACA-VDCA Cricket Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "ACA-VDCA Cricket Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "ACA-VDCA Cricket Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "ACA-VDCA Cricket Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 36
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": null
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Gujarat Titans"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Deccan Chargers"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Gujarat Lions"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Rising Pune Supergiant"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Pune Warriors"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Arun Jaitley Stadium",
+      "team": "Kochi Tuskers Kerala"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Barabati Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Barabati Stadium",
+      "team": "Deccan Chargers"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Barabati Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Barsapara Cricket Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Barsapara Cricket Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Barsapara Cricket Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Brabourne Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "venue": "Brabourne Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "Brabourne Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "Brabourne Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Brabourne Stadium",
+      "team": "Gujarat Titans"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Brabourne Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Brabourne Stadium",
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Brabourne Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Brabourne Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Buffalo Park",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Buffalo Park",
+      "team": "Delhi Capitals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Buffalo Park",
+      "team": "Mumbai Indians"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "De Beers Diamond Oval",
+      "team": "Deccan Chargers"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "De Beers Diamond Oval",
+      "team": "Punjab Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "De Beers Diamond Oval",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Dr DY Patil Sports Academy",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "Dr DY Patil Sports Academy",
+      "team": "Mumbai Indians"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "Dr DY Patil Sports Academy",
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Dr DY Patil Sports Academy",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Dr DY Patil Sports Academy",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Dr DY Patil Sports Academy",
+      "team": "Delhi Capitals"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Dr DY Patil Sports Academy",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Dr DY Patil Sports Academy",
+      "team": "Punjab Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Dr DY Patil Sports Academy",
+      "team": "Pune Warriors"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Dr DY Patil Sports Academy",
+      "team": "Gujarat Titans"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Dr DY Patil Sports Academy",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Dr DY Patil Sports Academy",
+      "team": "Deccan Chargers"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Dubai International Cricket Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "venue": "Dubai International Cricket Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "venue": "Dubai International Cricket Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "venue": "Dubai International Cricket Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "Dubai International Cricket Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "Dubai International Cricket Stadium",
+      "team": null
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Dubai International Cricket Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Dubai International Cricket Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Dubai International Cricket Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 54
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Mumbai Indians"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Punjab Kings"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Gujarat Titans"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Gujarat Lions"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Delhi Capitals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Rising Pune Supergiant"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Eden Gardens",
+      "team": "Kochi Tuskers Kerala"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Ekana Cricket Stadium, Lucknow",
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "venue": "Ekana Cricket Stadium, Lucknow",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Ekana Cricket Stadium, Lucknow",
+      "team": "Punjab Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Ekana Cricket Stadium, Lucknow",
+      "team": "Delhi Capitals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Ekana Cricket Stadium, Lucknow",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Ekana Cricket Stadium, Lucknow",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Ekana Cricket Stadium, Lucknow",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Ekana Cricket Stadium, Lucknow",
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Ekana Cricket Stadium, Lucknow",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Ekana Cricket Stadium, Lucknow",
+      "team": "Gujarat Titans"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Green Park",
+      "team": "Gujarat Lions"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Green Park",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Green Park",
+      "team": "Delhi Capitals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "HPCA Stadium, Dharamsala",
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "HPCA Stadium, Dharamsala",
+      "team": "Delhi Capitals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "HPCA Stadium, Dharamsala",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "HPCA Stadium, Dharamsala",
+      "team": "Punjab Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "HPCA Stadium, Dharamsala",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "HPCA Stadium, Dharamsala",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Himachal Pradesh Cricket Association Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "Himachal Pradesh Cricket Association Stadium",
+      "team": "Deccan Chargers"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Himachal Pradesh Cricket Association Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Himachal Pradesh Cricket Association Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Holkar Cricket Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "Holkar Cricket Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Holkar Cricket Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Holkar Cricket Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Holkar Cricket Stadium",
+      "team": "Kochi Tuskers Kerala"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "IS Bindra Stadium, Mohali",
+      "team": "Punjab Kings"
+    },
+    "wins": 23
+  },
+  {
+    "_id": {
+      "venue": "IS Bindra Stadium, Mohali",
+      "team": "Mumbai Indians"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "IS Bindra Stadium, Mohali",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "IS Bindra Stadium, Mohali",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "IS Bindra Stadium, Mohali",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "IS Bindra Stadium, Mohali",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "IS Bindra Stadium, Mohali",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "IS Bindra Stadium, Mohali",
+      "team": "Gujarat Lions"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "IS Bindra Stadium, Mohali",
+      "team": "Gujarat Titans"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "IS Bindra Stadium, Mohali",
+      "team": "Delhi Capitals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "IS Bindra Stadium, Mohali",
+      "team": "Pune Warriors"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "IS Bindra Stadium, Mohali",
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "JSCA International Stadium Complex",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "JSCA International Stadium Complex",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "JSCA International Stadium Complex",
+      "team": "Pune Warriors"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "JSCA International Stadium Complex",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "JSCA International Stadium Complex",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Kingsmead",
+      "team": "Delhi Capitals"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Kingsmead",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Kingsmead",
+      "team": "Punjab Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Kingsmead",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Kingsmead",
+      "team": "Deccan Chargers"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Kingsmead",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Kingsmead",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 45
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": null
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Gujarat Titans"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Rising Pune Supergiant"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Gujarat Lions"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "M. Chinnaswamy Stadium",
+      "team": "Deccan Chargers"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "MA Chidambaram Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 51
+  },
+  {
+    "_id": {
+      "venue": "MA Chidambaram Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "venue": "MA Chidambaram Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "MA Chidambaram Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "MA Chidambaram Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "MA Chidambaram Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "MA Chidambaram Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "MA Chidambaram Stadium",
+      "team": "Deccan Chargers"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "MA Chidambaram Stadium",
+      "team": null
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "MA Chidambaram Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "MA Chidambaram Stadium",
+      "team": "Pune Warriors"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "MA Chidambaram Stadium",
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "MCA Stadium, Pune",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "MCA Stadium, Pune",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "MCA Stadium, Pune",
+      "team": "Pune Warriors"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "MCA Stadium, Pune",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "MCA Stadium, Pune",
+      "team": "Gujarat Titans"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "MCA Stadium, Pune",
+      "team": "Punjab Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "MCA Stadium, Pune",
+      "team": "Mumbai Indians"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "MCA Stadium, Pune",
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "MCA Stadium, Pune",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "MCA Stadium, Pune",
+      "team": "Deccan Chargers"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "MCA Stadium, Pune",
+      "team": "Delhi Capitals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Maharaja Yadavindra Singh Stadium, Mullanpur",
+      "team": "Punjab Kings"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Maharaja Yadavindra Singh Stadium, Mullanpur",
+      "team": "Mumbai Indians"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Maharaja Yadavindra Singh Stadium, Mullanpur",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Maharaja Yadavindra Singh Stadium, Mullanpur",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Maharaja Yadavindra Singh Stadium, Mullanpur",
+      "team": "Gujarat Titans"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Maharaja Yadavindra Singh Stadium, Mullanpur",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Maharashtra Cricket Association Stadium",
+      "team": "Rising Pune Supergiant"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "Maharashtra Cricket Association Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "Maharashtra Cricket Association Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Maharashtra Cricket Association Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Maharashtra Cricket Association Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Maharashtra Cricket Association Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Maharashtra Cricket Association Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Maharashtra Cricket Association Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Maharashtra Cricket Association Stadium",
+      "team": "Gujarat Lions"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Narendra Modi Stadium",
+      "team": "Gujarat Titans"
+    },
+    "wins": 13
+  },
+  {
+    "_id": {
+      "venue": "Narendra Modi Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "venue": "Narendra Modi Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "Narendra Modi Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "Narendra Modi Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "Narendra Modi Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Narendra Modi Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Narendra Modi Stadium",
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Narendra Modi Stadium",
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Narendra Modi Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Narendra Modi Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Nehru Stadium",
+      "team": "Kochi Tuskers Kerala"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Nehru Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Nehru Stadium",
+      "team": "Deccan Chargers"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Nehru Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "New Wanderers Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "New Wanderers Stadium",
+      "team": "Deccan Chargers"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "New Wanderers Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "New Wanderers Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "New Wanderers Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Newlands",
+      "team": "Deccan Chargers"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Newlands",
+      "team": "Mumbai Indians"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Newlands",
+      "team": "Delhi Capitals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Newlands",
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Newlands",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Newlands",
+      "team": "Punjab Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "OUTsurance Oval",
+      "team": "Punjab Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "OUTsurance Oval",
+      "team": "Delhi Capitals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 37
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Deccan Chargers"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Rising Pune Supergiant"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": null
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Pune Warriors"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Rajiv Gandhi International Stadium",
+      "team": "Gujarat Titans"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Saurashtra Cricket Association Stadium",
+      "team": "Gujarat Lions"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Saurashtra Cricket Association Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Saurashtra Cricket Association Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Saurashtra Cricket Association Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Saurashtra Cricket Association Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Saurashtra Cricket Association Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Saurashtra Cricket Association Stadium",
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Sawai Mansingh Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 38
+  },
+  {
+    "_id": {
+      "venue": "Sawai Mansingh Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "Sawai Mansingh Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Sawai Mansingh Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Sawai Mansingh Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Sawai Mansingh Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Sawai Mansingh Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Sawai Mansingh Stadium",
+      "team": "Gujarat Titans"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Sawai Mansingh Stadium",
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Sawai Mansingh Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Shaheed Veer Narayan Singh International Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "Shaheed Veer Narayan Singh International Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Shaheed Veer Narayan Singh International Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Sharjah Cricket Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "Sharjah Cricket Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "Sharjah Cricket Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "Sharjah Cricket Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Sharjah Cricket Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Sharjah Cricket Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Sharjah Cricket Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Sharjah Cricket Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Sheikh Zayed Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "venue": "Sheikh Zayed Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "venue": "Sheikh Zayed Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "Sheikh Zayed Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "Sheikh Zayed Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Sheikh Zayed Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Sheikh Zayed Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Sheikh Zayed Stadium",
+      "team": null
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Sheikh Zayed Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "St George's Park",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "St George's Park",
+      "team": "Mumbai Indians"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "St George's Park",
+      "team": "Punjab Kings"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "St George's Park",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "St George's Park",
+      "team": "Delhi Capitals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "SuperSport Park",
+      "team": "Delhi Capitals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "SuperSport Park",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "SuperSport Park",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "SuperSport Park",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "SuperSport Park",
+      "team": "Deccan Chargers"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "SuperSport Park",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "SuperSport Park",
+      "team": "Mumbai Indians"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Vidarbha Cricket Association Stadium, Jamtha",
+      "team": "Deccan Chargers"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Vidarbha Cricket Association Stadium, Jamtha",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Mumbai Indians"
+    },
+    "wins": 56
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Chennai Super Kings"
+    },
+    "wins": 13
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Rajasthan Royals"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Punjab Kings"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Delhi Capitals"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Gujarat Titans"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Rising Pune Supergiant"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Deccan Chargers"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Kochi Tuskers Kerala"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Pune Warriors"
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "venue": "Wankhede Stadium",
+      "team": "Gujarat Lions"
+    },
+    "wins": 1
+  }
+]

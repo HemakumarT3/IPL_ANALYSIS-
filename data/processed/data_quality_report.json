@@ -1,0 +1,26 @@
+{
+  "pipeline_execution_timestamp": "2026-10-11T15:12:31.803180",
+  "input_file": "/home/hemakumar_t3/ipl-bigdata/data/raw/ipl.csv",
+  "input_records": 1169,
+  "output_records": 1169,
+  "records_discrepancy": 0,
+  "missing_winner_records": 23,
+  "missing_city_records": 51,
+  "tied_matches_identified": 15,
+  "no_result_abandoned_matches": 8,
+  "team_name_standardizations_applied": 4,
+  "team_standardization_map": {
+    "Delhi Daredevils": "Delhi Capitals",
+    "Kings XI Punjab": "Punjab Kings",
+    "Rising Pune Supergiants": "Rising Pune Supergiant",
+    "Royal Challengers Bangalore": "Royal Challengers Bengaluru"
+  },
+  "venue_standardization_count": 36,
+  "output_artifacts": {
+    "clean_csv": "/home/hemakumar_t3/ipl-bigdata/data/processed/ipl_clean.csv",
+    "pig_hive_tsv": "/home/hemakumar_t3/ipl-bigdata/data/processed/ipl_pig_hive.tsv",
+    "pig_hive_csv": "/home/hemakumar_t3/ipl-bigdata/data/processed/ipl_pig_hive.csv",
+    "jsonl_file": "/home/hemakumar_t3/ipl-bigdata/data/semi_structured/matches.jsonl",
+    "text_summaries": "/home/hemakumar_t3/ipl-bigdata/data/semi_structured/match_summaries.txt"
+  }
+}

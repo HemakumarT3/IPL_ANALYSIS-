@@ -1,0 +1,1178 @@
+[
+  {
+    "_id": {
+      "season": 1,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 13
+  },
+  {
+    "_id": {
+      "season": 1,
+      "team": "Punjab Kings"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 1,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 1,
+      "team": "Mumbai Indians"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 1,
+      "team": "Delhi Capitals"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 1,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 1,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 1,
+      "team": "Deccan Chargers"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "season": 2,
+      "team": "Delhi Capitals"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 2,
+      "team": "Deccan Chargers"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 2,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 2,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 2,
+      "team": "Punjab Kings"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 2,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 2,
+      "team": "Mumbai Indians"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 2,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "season": 2,
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "season": 3,
+      "team": "Mumbai Indians"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 3,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 3,
+      "team": "Deccan Chargers"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 3,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 3,
+      "team": "Delhi Capitals"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 3,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 3,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 3,
+      "team": "Punjab Kings"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "season": 3,
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "season": 4,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 4,
+      "team": "Mumbai Indians"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 4,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 4,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 4,
+      "team": "Punjab Kings"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 4,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 4,
+      "team": "Deccan Chargers"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 4,
+      "team": "Kochi Tuskers Kerala"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 4,
+      "team": "Delhi Capitals"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 4,
+      "team": "Pune Warriors"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 4,
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "season": 5,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 12
+  },
+  {
+    "_id": {
+      "season": 5,
+      "team": "Delhi Capitals"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 5,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 5,
+      "team": "Mumbai Indians"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 5,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 5,
+      "team": "Punjab Kings"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 5,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 5,
+      "team": "Pune Warriors"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 5,
+      "team": "Deccan Chargers"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 6,
+      "team": "Mumbai Indians"
+    },
+    "wins": 13
+  },
+  {
+    "_id": {
+      "season": 6,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 12
+  },
+  {
+    "_id": {
+      "season": 6,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 6,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 6,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 6,
+      "team": "Punjab Kings"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 6,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 6,
+      "team": "Pune Warriors"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 6,
+      "team": "Delhi Capitals"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "season": 6,
+      "team": null
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "season": 7,
+      "team": "Punjab Kings"
+    },
+    "wins": 12
+  },
+  {
+    "_id": {
+      "season": 7,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 7,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 7,
+      "team": "Mumbai Indians"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 7,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 7,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 7,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 7,
+      "team": "Delhi Capitals"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "season": 7,
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "season": 8,
+      "team": "Mumbai Indians"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 8,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 8,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 8,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 8,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 8,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 8,
+      "team": "Delhi Capitals"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 8,
+      "team": null
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "season": 8,
+      "team": "Punjab Kings"
+    },
+    "wins": 2
+  },
+  {
+    "_id": {
+      "season": 9,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 9,
+      "team": "Gujarat Lions"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 9,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 9,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 9,
+      "team": "Mumbai Indians"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 9,
+      "team": "Delhi Capitals"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 9,
+      "team": "Rising Pune Supergiant"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 9,
+      "team": "Punjab Kings"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 10,
+      "team": "Mumbai Indians"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 10,
+      "team": "Rising Pune Supergiant"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 10,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 10,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 10,
+      "team": "Punjab Kings"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 10,
+      "team": "Delhi Capitals"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 10,
+      "team": "Gujarat Lions"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 10,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "season": 10,
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "season": 11,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 11,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 11,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 11,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 11,
+      "team": "Mumbai Indians"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 11,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 11,
+      "team": "Punjab Kings"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 11,
+      "team": "Delhi Capitals"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 12,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 12,
+      "team": "Mumbai Indians"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 12,
+      "team": "Delhi Capitals"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 12,
+      "team": "Punjab Kings"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 12,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 12,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 12,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 12,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 12,
+      "team": null
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "season": 13,
+      "team": "Mumbai Indians"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 13,
+      "team": "Delhi Capitals"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 13,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 13,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 13,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 13,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 13,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 13,
+      "team": "Punjab Kings"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 13,
+      "team": null
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 14,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 14,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 14,
+      "team": "Delhi Capitals"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 14,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 14,
+      "team": "Mumbai Indians"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 14,
+      "team": "Punjab Kings"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 14,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 14,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 3
+  },
+  {
+    "_id": {
+      "season": 14,
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "season": 15,
+      "team": "Gujarat Titans"
+    },
+    "wins": 12
+  },
+  {
+    "_id": {
+      "season": 15,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 15,
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 15,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 15,
+      "team": "Punjab Kings"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 15,
+      "team": "Delhi Capitals"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 15,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 15,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 15,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 15,
+      "team": "Mumbai Indians"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 16,
+      "team": "Gujarat Titans"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 16,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 16,
+      "team": "Mumbai Indians"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 16,
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 8
+  },
+  {
+    "_id": {
+      "season": 16,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 16,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 16,
+      "team": "Punjab Kings"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 16,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 16,
+      "team": "Delhi Capitals"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 16,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 16,
+      "team": null
+    },
+    "wins": 1
+  },
+  {
+    "_id": {
+      "season": 17,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 17,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 17,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 17,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 17,
+      "team": "Delhi Capitals"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 17,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 17,
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 7
+  },
+  {
+    "_id": {
+      "season": 17,
+      "team": "Punjab Kings"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 17,
+      "team": "Gujarat Titans"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 17,
+      "team": "Mumbai Indians"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 18,
+      "team": "Royal Challengers Bengaluru"
+    },
+    "wins": 11
+  },
+  {
+    "_id": {
+      "season": 18,
+      "team": "Punjab Kings"
+    },
+    "wins": 10
+  },
+  {
+    "_id": {
+      "season": 18,
+      "team": "Mumbai Indians"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 18,
+      "team": "Gujarat Titans"
+    },
+    "wins": 9
+  },
+  {
+    "_id": {
+      "season": 18,
+      "team": "Sunrisers Hyderabad"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 18,
+      "team": "Delhi Capitals"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 18,
+      "team": "Lucknow Super Giants"
+    },
+    "wins": 6
+  },
+  {
+    "_id": {
+      "season": 18,
+      "team": "Kolkata Knight Riders"
+    },
+    "wins": 5
+  },
+  {
+    "_id": {
+      "season": 18,
+      "team": "Chennai Super Kings"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 18,
+      "team": "Rajasthan Royals"
+    },
+    "wins": 4
+  },
+  {
+    "_id": {
+      "season": 18,
+      "team": null
+    },
+    "wins": 4
+  }
+]
