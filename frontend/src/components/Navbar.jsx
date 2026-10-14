@@ -1,122 +1,171 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { 
-  BarChart3, 
-  Trophy, 
-  Coins, 
-  MapPin, 
-  Calendar, 
-  CheckCircle2, 
+  Menu, 
+  X, 
+  ChevronDown, 
   ShieldCheck, 
-  Activity 
+  Database, 
+  Activity,
+  Layers,
+  Sparkles
 } from 'lucide-react';
 
 export const Navbar = ({ activeTab, setActiveTab, health }) => {
-  const navItems = [
-    { id: 'overview', label: 'Overview', icon: <BarChart3 size={17} /> },
-    { id: 'teams', label: 'Team Rankings', icon: <Trophy size={17} /> },
-    { id: 'toss', label: 'Toss Analytics', icon: <Coins size={17} /> },
-    { id: 'venues', label: 'Venue Bias', icon: <MapPin size={17} /> },
-    { id: 'seasons', label: 'Seasons & Rivalries', icon: <Calendar size={17} /> },
-    { id: 'validation', label: 'Engine Validation', icon: <CheckCircle2 size={17} /> },
-    { id: 'quality', label: 'Data Quality', icon: <ShieldCheck size={17} /> },
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [moreDropdownOpen, setMoreDropdownOpen] = useState(false);
+
+  const mainNav = [
+    { id: 'home', label: 'Home' },
+    { id: 'overview', label: 'Overview' },
+    { id: 'points', label: 'Points Table' },
+    { id: 'teams', label: 'Teams' },
+    { id: 'toss', label: 'Toss Analysis' },
+    { id: 'venues', label: 'Venues' },
+    { id: 'seasons', label: 'Seasons' }
   ];
 
+  const moreItems = [
+    { id: 'status', label: 'Cluster Parity Engine', icon: <Database size={15} /> },
+    { id: 'quality', label: 'Data Quality & Audit', icon: <ShieldCheck size={15} /> }
+  ];
+
+  const handleNav = (tabId) => {
+    setActiveTab(tabId);
+    setMobileMenuOpen(false);
+    setMoreDropdownOpen(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const isApiOnline = health && health.status === 'healthy';
+
   return (
-    <header style={{
-      background: 'rgba(18, 23, 34, 0.85)',
-      backdropFilter: 'blur(16px)',
-      borderBottom: '1px solid var(--border-color)',
-      position: 'sticky',
-      top: 0,
-      zIndex: 50,
-      padding: '0.75rem 2rem'
-    }}>
-      <div style={{
-        maxWidth: '1440px',
-        margin: '0 auto',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        flexWrap: 'wrap',
-        gap: '1rem'
-      }}>
-        {/* Brand */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <div style={{
-            width: '40px',
-            height: '40px',
-            borderRadius: '10px',
-            background: 'linear-gradient(135deg, #0284c7 0%, #6366f1 100%)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontSize: '1.25rem',
-            boxShadow: '0 4px 14px rgba(2, 132, 199, 0.35)'
-          }}>
-            🏏
+    <header className="ipl-navbar">
+      <div className="ipl-nav-inner">
+        {/* Left: Custom Cricket Brandmark */}
+        <div className="ipl-brand" onClick={() => handleNav('home')}>
+          <div className="ipl-brand-badge">
+            <span style={{ fontSize: '1.4rem' }}>🏏</span>
           </div>
-          <div>
-            <h1 style={{ fontSize: '1.15rem', fontWeight: '800', letterSpacing: '-0.02em', color: '#fff' }}>
-              IPL Big Data Analytics
-            </h1>
-            <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>
-              Hadoop • HDFS • Hive • Pig • MySQL • MongoDB
-            </p>
+          <div className="ipl-brand-title">
+            <span>IPL Analytics</span>
+            <span className="ipl-brand-sub">Big Data Platform</span>
           </div>
         </div>
 
-        {/* Navigation Tabs */}
-        <nav style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-          {navItems.map((item) => {
+        {/* Desktop Navigation Links */}
+        <nav className={`ipl-nav-menu ${mobileMenuOpen ? 'mobile-open' : ''}`}>
+          {mainNav.map((item) => {
             const isActive = activeTab === item.id;
             return (
               <button
                 key={item.id}
-                onClick={() => setActiveTab(item.id)}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '8px',
-                  padding: '8px 14px',
-                  borderRadius: '10px',
-                  border: isActive ? '1px solid rgba(56, 189, 248, 0.4)' : '1px solid transparent',
-                  background: isActive ? 'rgba(56, 189, 248, 0.12)' : 'transparent',
-                  color: isActive ? '#38bdf8' : 'var(--text-secondary)',
-                  fontWeight: isActive ? '700' : '500',
-                  fontSize: '0.85rem',
-                  cursor: 'pointer',
-                  transition: 'all 0.2s ease',
-                  fontFamily: 'inherit'
-                }}
+                onClick={() => handleNav(item.id)}
+                className={`ipl-nav-link ${isActive ? 'active' : ''}`}
               >
-                {item.icon}
-                <span>{item.label}</span>
+                {item.label}
               </button>
             );
           })}
+
+          {/* More Dropdown */}
+          <div style={{ position: 'relative' }}>
+            <button
+              onClick={() => setMoreDropdownOpen(!moreDropdownOpen)}
+              className={`ipl-nav-link ${['status', 'quality'].includes(activeTab) ? 'active' : ''}`}
+              style={{ display: 'flex', alignItems: 'center', gap: '4px' }}
+            >
+              <span>More</span>
+              <ChevronDown size={14} style={{ transform: moreDropdownOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
+            </button>
+
+            {moreDropdownOpen && (
+              <div style={{
+                position: 'absolute',
+                top: '100%',
+                right: 0,
+                marginTop: '6px',
+                background: '#0d1e44',
+                border: '1px solid rgba(255, 255, 255, 0.15)',
+                borderRadius: '8px',
+                boxShadow: '0 8px 24px rgba(0, 0, 0, 0.5)',
+                padding: '6px',
+                minWidth: '200px',
+                zIndex: 110,
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '2px'
+              }}>
+                {moreItems.map((item) => (
+                  <button
+                    key={item.id}
+                    onClick={() => handleNav(item.id)}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '8px 12px',
+                      borderRadius: '6px',
+                      background: activeTab === item.id ? 'rgba(56, 189, 248, 0.2)' : 'transparent',
+                      color: activeTab === item.id ? '#38bdf8' : '#ffffff',
+                      border: 'none',
+                      fontFamily: 'inherit',
+                      fontSize: '0.85rem',
+                      fontWeight: '600',
+                      cursor: 'pointer',
+                      textAlign: 'left',
+                      transition: 'background 0.15s ease'
+                    }}
+                  >
+                    {item.icon}
+                    <span>{item.label}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
         </nav>
 
-        {/* System Health Badge */}
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '8px',
-          background: 'rgba(16, 185, 129, 0.1)',
-          border: '1px solid rgba(16, 185, 129, 0.25)',
-          padding: '5px 12px',
-          borderRadius: '20px',
-          fontSize: '0.75rem',
-          color: '#34d399',
-          fontFamily: 'var(--font-mono)'
-        }}>
-          <span style={{
-            width: '8px',
-            height: '8px',
-            borderRadius: '50%',
-            backgroundColor: '#10b981',
-            boxShadow: '0 0 8px #10b981'
-          }}></span>
-          <span>4 Engines Online</span>
+        {/* Right: Live Engine Indicator & Mobile Toggle */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '6px',
+            background: isApiOnline ? 'rgba(16, 185, 129, 0.18)' : 'rgba(239, 68, 68, 0.2)',
+            border: `1px solid ${isApiOnline ? 'rgba(16, 185, 129, 0.4)' : 'rgba(239, 68, 68, 0.4)'}`,
+            padding: '5px 12px',
+            borderRadius: '20px',
+            fontSize: '0.75rem',
+            color: isApiOnline ? '#34d399' : '#f87171',
+            fontWeight: '700',
+            fontFamily: 'var(--font-mono)'
+          }}>
+            <span style={{
+              width: '7px',
+              height: '7px',
+              borderRadius: '50%',
+              backgroundColor: isApiOnline ? '#10b981' : '#ef4444',
+              boxShadow: isApiOnline ? '0 0 6px #10b981' : '0 0 6px #ef4444'
+            }}></span>
+            <span className="hidden sm:inline">{isApiOnline ? 'API LIVE' : 'OFFLINE'}</span>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            style={{
+              background: 'transparent',
+              border: 'none',
+              color: '#ffffff',
+              cursor: 'pointer',
+              display: 'none',
+              padding: '6px'
+            }}
+            className="md:hidden"
+            aria-label="Toggle Navigation"
+          >
+            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
       </div>
     </header>

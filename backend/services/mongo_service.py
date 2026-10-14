@@ -55,13 +55,21 @@ class MongoService:
                 "data_source": "MongoDB Aggregation Pipeline ($group by toss.toss_win_match_win)"
             }
         except Exception as e:
-            logger.warning(f"Falling back to MongoDB precomputed output: {e}")
+            logger.warning(f"Falling back to AnalyticalService for toss impact: {e}")
+            from backend.services.analytical_service import AnalyticalService
+            toss_res = AnalyticalService.get_toss_analysis()
+            adv = toss_res.get("advantage", {})
+            toss_won = adv.get("toss_winner_won", 591)
+            valid_m = adv.get("valid_matches", 1146)
+            toss_lost = valid_m - toss_won
+            won_pct = adv.get("toss_advantage_pct", 51.57)
+            lost_pct = round(toss_lost / valid_m * 100, 2) if valid_m > 0 else 0
             return {
                 "data": [
-                    {"outcome": "Toss Winner Won Match", "toss_win_match_win": True, "matches": 600, "percentage": 51.33},
-                    {"outcome": "Toss Winner Lost Match", "toss_win_match_win": False, "matches": 569, "percentage": 48.67}
+                    {"outcome": "Toss Winner Won Match", "toss_win_match_win": True, "matches": toss_won, "percentage": won_pct},
+                    {"outcome": "Toss Winner Lost Match", "toss_win_match_win": False, "matches": toss_lost, "percentage": lost_pct}
                 ],
-                "data_source": "MongoDB Precomputed JSON (toss_winner_vs_match_winner.json)"
+                "data_source": "Analytical Engine (Verified Matches 2008-2025)"
             }
 
     @classmethod
@@ -137,19 +145,10 @@ class MongoService:
                 "data_source": "MongoDB Aggregation Pipeline ($group by result.player_of_match)"
             }
         except Exception as e:
-            logger.warning(f"Falling back to default POM: {e}")
+            logger.warning(f"Falling back to AnalyticalService POM: {e}")
+            from backend.services.analytical_service import AnalyticalService
+            insights = AnalyticalService.get_insights()
             return {
-                "data": [
-                    {"player": "AB de Villiers", "awards": 25},
-                    {"player": "CH Gayle", "awards": 22},
-                    {"player": "RG Sharma", "awards": 19},
-                    {"player": "DA Warner", "awards": 18},
-                    {"player": "MS Dhoni", "awards": 17},
-                    {"player": "V Kohli", "awards": 16},
-                    {"player": "SR Watson", "awards": 16},
-                    {"player": "YK Pathan", "awards": 16},
-                    {"player": "AD Russell", "awards": 15},
-                    {"player": "KA Pollard", "awards": 14}
-                ],
-                "data_source": "MongoDB Aggregation Pipeline"
+                "data": insights.get("top_players_of_match", []),
+                "data_source": "Analytical Engine (Verified Awards 2008-2025)"
             }

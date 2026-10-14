@@ -1,0 +1,21 @@
+cd /home/hemakumar_t3/ipl-bigdata
+PYTHONPATH=. /home/hemakumar_t3/ipl_venv/bin/pytest backend/tests/test_api.py tests/test_pipeline.py -v
+
+
+# 1. Start MySQL & MongoDB (if not running)
+sudo service mysql start
+sudo systemctl start mongod
+
+# 2. Start Flask REST API Backend (Port 5000)
+cd /home/hemakumar_t3/ipl-bigdata
+PYTHONPATH=. /home/hemakumar_t3/ipl_venv/bin/python backend/app.py
+
+# 3. Start React Development Server (Port 5173) in a second terminal
+cd /home/hemakumar_t3/ipl-bigdata/frontend
+npm run dev -- --host
+
+
+Open your browser at http://localhost:5173 to interact with the dashboard.
+
+
+\\wsl.localhost\Ubuntu\home\hemakumar_t3\ipl-bigdata

@@ -1,13 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Windows metadata
+*:Zone.Identifier
+
+# Compiled files
+*.class
+
+# Local generated output
+.DS_Store
+# Local assignments and build files
+Big_data_lab/
+frontend/node_modules/
+frontend/dist/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Windows metadata
+*:Zone.Identifier
+
+# Generated and local files
+Big_data_lab/
+frontend/node_modules/
+frontend/dist/
+.pytest_cache/
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# Environment files
 .env
 .env.*
 !.env.example
-node_modules/
-dist/
-frontend/dist/
-*.log
-logs/
-*.tmp
+
+# Windows metadata
+*:Zone.Identifier

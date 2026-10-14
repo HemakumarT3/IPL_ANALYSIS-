@@ -1,22 +1,66 @@
-const API_BASE = '/api';
+/**
+ * frontend/src/services/api.js
+ * Centralized API Client for IPL Big Data Analytics Dashboard.
+ * Configured with environment-aware baseURL, request timeouts, and robust error handling.
+ */
+
+// Production requests use VITE_API_BASE_URL when deployed; fallback to relative /api for dev proxy
+const API_BASE = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '') + '/api';
+
+/**
+ * Universal fetch wrapper with timeout and standardized error handling.
+ */
+async function apiRequest(endpoint, options = {}, timeoutMs = 8000) {
+  const controller = new AbortController();
+  const id = setTimeout(() => controller.abort(), timeoutMs);
+
+  const url = `${API_BASE}${endpoint}`;
+  try {
+    const res = await fetch(url, {
+      ...options,
+      signal: controller.signal,
+      headers: {
+        'Accept': 'application/json',
+        ...(options.headers || {})
+      }
+    });
+    clearTimeout(id);
+
+    if (!res.ok) {
+      const errorText = await res.text().catch(() => '');
+      let parsedMessage = `Request failed with status ${res.status}`;
+      try {
+        const jsonErr = JSON.parse(errorText);
+        if (jsonErr && (jsonErr.error || jsonErr.message)) {
+          parsedMessage = jsonErr.error || jsonErr.message;
+        }
+      } catch {
+        if (errorText) parsedMessage = errorText.slice(0, 150);
+      }
+      throw new Error(parsedMessage);
+    }
+
+    return await res.json();
+  } catch (err) {
+    clearTimeout(id);
+    if (err.name === 'AbortError') {
+      throw new Error('Analytics request timed out. Please check backend connectivity and retry.');
+    }
+    throw err;
+  }
+}
 
 export const fetchHealth = async () => {
-  const res = await fetch(`${API_BASE}/health`);
-  if (!res.ok) throw new Error('Failed to connect to Big Data backend');
-  return res.json();
+  return apiRequest('/health');
 };
 
 export const fetchOverview = async (season) => {
   const query = season && season !== 'all' ? `?season=${encodeURIComponent(season)}` : '';
-  const res = await fetch(`${API_BASE}/overview${query}`);
-  if (!res.ok) throw new Error('Failed to fetch overview data');
-  return res.json();
+  return apiRequest(`/overview${query}`);
 };
 
 export const fetchTeams = async () => {
-  const res = await fetch(`${API_BASE}/teams`);
-  if (!res.ok) throw new Error('Failed to fetch teams list');
-  return res.json();
+  return apiRequest('/teams');
 };
 
 export const fetchTeamPerformance = async (season, team) => {
@@ -24,23 +68,22 @@ export const fetchTeamPerformance = async (season, team) => {
   if (season && season !== 'all') params.append('season', season);
   if (team && team !== 'all') params.append('team', team);
   const query = params.toString() ? `?${params.toString()}` : '';
-  const res = await fetch(`${API_BASE}/teams/performance${query}`);
-  if (!res.ok) throw new Error('Failed to fetch team performance metrics');
-  return res.json();
+  return apiRequest(`/teams/performance${query}`);
+};
+
+export const fetchHeadToHead = async (team1, team2) => {
+  const params = new URLSearchParams({ team1, team2 });
+  return apiRequest(`/teams/head-to-head?${params.toString()}`);
 };
 
 export const fetchToss = async (season) => {
   const query = season && season !== 'all' ? `?season=${encodeURIComponent(season)}` : '';
-  const res = await fetch(`${API_BASE}/toss${query}`);
-  if (!res.ok) throw new Error('Failed to fetch toss analytics');
-  return res.json();
+  return apiRequest(`/toss${query}`);
 };
 
 export const fetchVenues = async (season) => {
   const query = season && season !== 'all' ? `?season=${encodeURIComponent(season)}` : '';
-  const res = await fetch(`${API_BASE}/venues${query}`);
-  if (!res.ok) throw new Error('Failed to fetch venues list');
-  return res.json();
+  return apiRequest(`/venues${query}`);
 };
 
 export const fetchVenuesPerformance = async (venue, season) => {
@@ -48,9 +91,7 @@ export const fetchVenuesPerformance = async (venue, season) => {
   if (venue && venue !== 'all') params.append('venue', venue);
   if (season && season !== 'all') params.append('season', season);
   const query = params.toString() ? `?${params.toString()}` : '';
-  const res = await fetch(`${API_BASE}/venues/performance${query}`);
-  if (!res.ok) throw new Error('Failed to fetch venue performance');
-  return res.json();
+  return apiRequest(`/venues/performance${query}`);
 };
 
 export const fetchSeasons = async (season, team) => {
@@ -58,25 +99,17 @@ export const fetchSeasons = async (season, team) => {
   if (season && season !== 'all') params.append('season', season);
   if (team && team !== 'all') params.append('team', team);
   const query = params.toString() ? `?${params.toString()}` : '';
-  const res = await fetch(`${API_BASE}/seasons${query}`);
-  if (!res.ok) throw new Error('Failed to fetch season trends');
-  return res.json();
+  return apiRequest(`/seasons${query}`);
 };
 
 export const fetchInsights = async () => {
-  const res = await fetch(`${API_BASE}/insights`);
-  if (!res.ok) throw new Error('Failed to fetch notable insights');
-  return res.json();
+  return apiRequest('/insights');
 };
 
 export const fetchDataQuality = async () => {
-  const res = await fetch(`${API_BASE}/data-quality`);
-  if (!res.ok) throw new Error('Failed to fetch data quality report');
-  return res.json();
+  return apiRequest('/data-quality');
 };
 
 export const fetchSourcesStatus = async () => {
-  const res = await fetch(`${API_BASE}/sources/status`);
-  if (!res.ok) throw new Error('Failed to fetch data sources status');
-  return res.json();
+  return apiRequest('/sources/status');
 };

@@ -1,24 +1,40 @@
 # IPL Team, Toss & Venue Performance Analysis Using Big Data Technologies
 
-An end-to-end, academic Big Data engineering and analytics project built with **Hadoop 3.4.3, HDFS, Apache Pig 0.18.0, Apache Hive 3.1.3, MySQL 8.4 RDBMS, MongoDB 8.0 NoSQL, Python Flask, and React 18**.
+An end-to-end Big Data engineering and sports analytics platform built with **Apache Hadoop 3.4.3, HDFS, Apache Pig 0.18.0, Apache Hive 3.1.3, MySQL 8.4 RDBMS, MongoDB 8.0 NoSQL, Python Flask REST API, and React 18 + Vite**.
 
-Analyzes **1,169 official Indian Premier League matches (2008–2024)** across multiple distributed computing paradigms to investigate franchise dominance, coin-toss advantage, and stadium pitch biases with **100.0% mathematical parity across all engines**.
+Analyzes **1,169 official Indian Premier League matches across 18 seasons (2008–2025)** across multiple distributed computing paradigms to investigate franchise dominance, coin-toss advantage, and stadium pitch biases with **100% mathematical parity across all compute engines**.
 
 ---
 
 ## 🚀 Key Empirical Analytical Findings
 
-1. **The Toss Reality:** Out of 1,169 matches, the team winning the toss won the match in **600 games (51.33%)** and lost in **569 games (48.67%)**. Winning the toss provides only a marginal **+1.33% winning edge**, refuting the common belief that the toss dictates victory.
-2. **Evolution of Toss Strategy:** In 2008–2010, captains chose batting first ~50% of the time. By 2024, captains elected to **field first in >70% of matches**, driven by evening dew factors and data-backed chasing advantages.
-3. **Franchise Dominance:**
-   - **Most Match Wins:** **Mumbai Indians** with **151 wins** in 277 matches (54.51% win rate).
-   - **Highest Veteran Win Rate:** **Chennai Super Kings** with **142 wins** in 252 matches (**56.35% win rate**).
-4. **Venue Biases (Defend vs Chase):**
-   - **Highest Chasing Venue:** **Sharjah Cricket Stadium** (Chasing win rate = **75.00%**, 21 of 28 matches won batting second).
-   - **Highest Defending Fortress:** **MA Chidambaram Stadium / Chepauk** (Defending win rate = **58.43%**, 52 of 91 matches won batting first).
-   - **Most Frequented Stadium:** **Wankhede Stadium, Mumbai** (125 matches, 57.26% chasing win rate).
-5. **El Clásico Rivalry:** Mumbai Indians leads Chennai Super Kings **21 wins to 17 wins** across all head-to-head encounters.
-6. **Top Match Winner:** **AB de Villiers** holds the all-time record with **25 Player of the Match awards**, followed by **Chris Gayle (22)** and **Rohit Sharma (19)**.
+1. **The Toss Reality:** Out of 1,169 total matches, exactly **1,146 matches have a decided win/loss outcome** (23 matches were abandoned or ties without a recorded match winner).
+   - **Toss Winner Won:** **591 matches (51.57% / 51.6%)**
+   - **Toss Winner Lost:** **555 matches (48.43% / 48.4%)**
+   - **Empirical Edge:** Winning the toss provides only a marginal **+1.57% winning edge** above random chance, debunking the myth that the coin toss determines T20 match outcomes.
+2. **Toss Decision Win Rates:**
+   - **Field First (Chasing):** Chosen in 750 decided matches → **408 wins (54.40% / 54.4% win rate)**.
+   - **Bat First (Defending):** Chosen in 396 decided matches → **183 wins (46.21% / 46.2% win rate)**.
+   - Captains choosing to field first win **8.2% more often** than captains choosing to bat first.
+3. **Defending vs Chasing Match Outcomes (All Matches):**
+   - **Chasing (Batting Second):** **621 wins (54.19%)**
+   - **Defending (Batting First):** **525 wins (45.81%)**
+4. **Franchise Dominance (Verified Denominators: Wins / (Wins + Losses) × 100):**
+   - **Chennai Super Kings:** 142 wins in 250 decided matches (**56.80% win rate**; 252 matches played, 2 no-results).
+   - **Mumbai Indians:** 151 wins in 273 decided matches (**55.31% win rate**; 277 matches played, 4 no-results).
+   - **Gujarat Titans:** 37 wins in 60 decided matches (**61.67% win rate**; 60 matches played, 0 no-results).
+   - **Kolkata Knight Riders:** 135 wins in 259 decided matches (**52.12% win rate**; 264 matches played, 5 no-results).
+   - **Lucknow Super Giants:** 30 wins in 57 decided matches (**52.63% win rate**; 58 matches played, 1 no-result).
+   - **Royal Challengers Bengaluru:** 132 wins in 264 decided matches (**50.00% win rate**; 270 matches played, 6 no-results).
+   - **Rajasthan Royals:** 114 wins in 229 decided matches (**49.78% win rate**; 235 matches played, 6 no-results).
+   - **Sunrisers Hyderabad:** 93 wins in 191 decided matches (**48.69% win rate**; 196 matches played, 5 no-results).
+   - **Punjab Kings:** 119 wins in 258 decided matches (**46.12% win rate**; 264 matches played, 6 no-results).
+   - **Delhi Capitals:** 118 wins in 258 decided matches (**45.74% win rate**; 267 matches played, 9 no-results).
+5. **Venue Pitch Biases:**
+   - **Premier Defending Fortress:** **MA Chidambaram Stadium (Chepauk, Chennai)** (58.4% defending win rate).
+   - **Premier Chasing Ground:** **Sharjah Cricket Stadium** (75.0% chasing win rate).
+   - **Most Frequented Stadium:** **Wankhede Stadium, Mumbai** (125 matches, 57.3% chasing win rate).
+6. **El Clásico Rivalry:** Mumbai Indians leads Chennai Super Kings **21 wins to 18 wins** across 39 direct encounters.
 
 ---
 
@@ -53,13 +69,13 @@ Analyzes **1,169 official Indian Premier League matches (2008–2024)** across m
          ▼                        ▼                          ▼
      ┌──────────────────────────────────────────────────────────┐
      │           Flask REST API Backend (Port 5000)             │
-     │      (Dynamic Engine Attribution & Parity Engine)        │
+     │   (Centralized Analytical Layer + Parity Verification)   │
      └────────────────────────────┬─────────────────────────────┘
                                   │
                                   ▼
      ┌──────────────────────────────────────────────────────────┐
      │           React 18 + Vite Dashboard (Port 5173)          │
-     │   (Interactive Charts, Source Badges, Parity Matrix)     │
+     │      (iplt20.com Styling, Head-to-Head, Parity Audit)    │
      └──────────────────────────────────────────────────────────┘
 ```
 
@@ -67,7 +83,7 @@ Analyzes **1,169 official Indian Premier League matches (2008–2024)** across m
 
 ## 📊 Cross-Engine Parity Matrix (100% Agreement)
 
-The pipeline was executed independently across batch MapReduce, relational SQL, and NoSQL aggregation pipelines. All four technologies produced **identical numerical results**:
+All 4 compute engines execute independently and agree on verified team win totals:
 
 | Franchise Team | Apache Hive (MR) | Apache Pig (MR) | MySQL 8.4 (SQL) | MongoDB 8.0 (NoSQL) | Status |
 | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -84,134 +100,86 @@ The pipeline was executed independently across batch MapReduce, relational SQL, 
 
 ---
 
-## 🛠️ Technology Stack & Versions
+## 🏷️ Canonical Franchise Registry & Aliasing
 
-- **OS Environment:** WSL 2 Ubuntu Linux (`24.04 LTS`)
-- **Java Runtime:** OpenJDK 8 (`1.8.0_504`) pinned for Hadoop/Pig/Hive compatibility
-- **Distributed Storage:** Apache Hadoop 3.4.3 HDFS (`hdfs://localhost:9000`)
-- **Batch Dataflow:** Apache Pig 0.18.0 (Pig Latin on MapReduce)
-- **Data Warehousing:** Apache Hive 3.1.3 (HiveQL with Derby Metastore)
-- **Relational Storage:** MySQL 8.4 RDBMS (InnoDB Engine)
-- **Document NoSQL:** MongoDB 8.0 (WiredTiger Engine)
-- **Backend API:** Python 3.14, Flask 3.1.3, Flask-CORS, PyMongo, MySQL Connector
-- **Frontend Dashboard:** React 18, Vite 5, Recharts, Lucide React
+The canonical team registry resolves historical rebrands while strictly preserving historical franchise boundaries:
+
+| Canonical Identity | Status | Recognized Raw Aliases | Rationale |
+| :--- | :---: | :--- | :--- |
+| **Chennai Super Kings** | Active | CSK | Continuous franchise identity |
+| **Delhi Capitals** | Active | Delhi Daredevils, DD, DC | Official December 2018 franchise rebrand |
+| **Gujarat Titans** | Active | GT | Founded 2022 |
+| **Kolkata Knight Riders** | Active | KKR | Continuous franchise identity |
+| **Lucknow Super Giants** | Active | LSG | Founded 2022 |
+| **Mumbai Indians** | Active | MI | Continuous franchise identity |
+| **Punjab Kings** | Active | Kings XI Punjab, KXIP, PBKS | Official February 2021 franchise rebrand |
+| **Rajasthan Royals** | Active | RR | Continuous franchise identity |
+| **Royal Challengers Bengaluru** | Active | Royal Challengers Bangalore, RCB | Official March 2024 franchise rebrand |
+| **Sunrisers Hyderabad** | Active | SRH | Replaced Deccan Chargers in 2013 |
+| **Deccan Chargers** | Historical | DCG | Defunct (2008–2012) — distinct from SRH |
+| **Kochi Tuskers Kerala** | Historical | KTK | Defunct (2011) |
+| **Pune Warriors** | Historical | Pune Warriors India, PWI | Defunct (2011–2013) |
+| **Gujarat Lions** | Historical | GL | Defunct (2016–2017) — distinct from GT |
+| **Rising Pune Supergiant** | Historical | Rising Pune Supergiants, RPS | Defunct (2016–2017) |
 
 ---
 
-## ⚡ Quickstart & Execution Runbook
+## 🌐 Flask REST API Endpoints
 
-### 1. Start Big Data Services & Hadoop Daemons
-```bash
-# Source environment variables (Java 8, Hadoop, Pig, Hive)
-source ~/env.sh
+All endpoints return JSON responses with standardized schemas:
 
-# Start HDFS NameNode, DataNode & SecondaryNameNode
-start-dfs.sh
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `GET` | `/api/health` | Distinguishes API liveness from MySQL/MongoDB/Pig/Hive availability |
+| `GET` | `/api/overview` | Overall tournament KPIs, top teams, top venues, season fixture trends |
+| `GET` | `/api/teams` | Canonical list of all active and historical franchises |
+| `GET` | `/api/teams/performance` | Detailed standings: matches played, wins, losses, NR, win %, toss wins |
+| `GET` | `/api/teams/head-to-head` | Direct rivalry records: `?team1=Mumbai Indians&team2=Chennai Super Kings` |
+| `GET` | `/api/toss` | Toss advantage, bat vs field win %, defending vs chasing, season trends |
+| `GET` | `/api/venues` | List of all 39 documented venues and fixture frequencies |
+| `GET` | `/api/venues/performance` | Pitch defend vs chase win rates, sample validity flags (≥10 matches) |
+| `GET` | `/api/seasons` | Match counts, date ranges, and team wins across Seasons 1 to 18 |
+| `GET` | `/api/insights` | Empirically verified strategic conclusions and award leaders |
+| `GET` | `/api/data-quality` | Audit report: 1,169 matches, 0 duplicates, missing values treatment |
+| `GET` | `/api/sources/status` | Live connection status and cross-engine multi-technology parity |
 
-# Verify Hadoop daemons are running
-jps
-# Expected: NameNode, DataNode, SecondaryNameNode
-```
+---
 
-### 2. Start MySQL and MongoDB
+## ⚡ Local Runbook & Execution
+
+### 1. Start Database Services (in WSL / Linux)
 ```bash
 sudo service mysql start
 sudo systemctl start mongod
 ```
 
-### 3. Run End-to-End Pipeline & Batch Compute
+### 2. Run All Automated Tests
 ```bash
 cd /home/hemakumar_t3/ipl-bigdata
-
-# 1. Run Data Preparation & Cleaning ETL
-/home/hemakumar_t3/ipl_venv/bin/python scripts/prepare_ipl.py
-
-# 2. Upload Datasets to Distributed HDFS
-bash scripts/upload_to_hdfs.sh
-
-# 3. Ingest into MySQL and Run Export Queries
-/home/hemakumar_t3/ipl_venv/bin/python scripts/load_mysql.py
-/home/hemakumar_t3/ipl_venv/bin/python scripts/export_mysql.py
-
-# 4. Ingest into MongoDB & Run Aggregation Pipelines
-/home/hemakumar_t3/ipl_venv/bin/python scripts/import_mongodb.py
-
-# 5. Execute Apache Pig Latin MapReduce Jobs
-bash scripts/run_pig_jobs.sh
-
-# 6. Execute Apache Hive Warehouse HQL Queries
-bash scripts/run_hive_queries.sh
+PYTHONPATH=. /home/hemakumar_t3/ipl_venv/bin/pytest backend/tests/test_api.py tests/test_calculations.py tests/test_pipeline.py -v
 ```
+*(Runs 21 automated tests covering calculation rules, API responses, and big data pipeline integrity).*
 
-### 4. Run Automated Tests & Cross-Engine Validation
+### 3. Launch Flask Backend (Port 5000)
 ```bash
-# Run cross-engine parity validation script
-/home/hemakumar_t3/ipl_venv/bin/python scripts/validate_results.py
-
-# Run all 16 automated pytest unit and integration tests
-PYTHONPATH=. /home/hemakumar_t3/ipl_venv/bin/pytest backend/tests/test_api.py tests/test_pipeline.py -v
-```
-
-### 5. Launch Web Application & Access Dashboard
-```bash
-# Terminal 1: Launch Flask REST API (Port 5000)
 cd /home/hemakumar_t3/ipl-bigdata
 PYTHONPATH=. /home/hemakumar_t3/ipl_venv/bin/python backend/app.py
+```
 
-# Terminal 2: Launch React Frontend Dashboard (Port 5173)
+### 4. Launch React Frontend (Port 5173)
+```bash
 cd /home/hemakumar_t3/ipl-bigdata/frontend
 npm run dev -- --host
 ```
-Open your browser at:
-- **Interactive Dashboard:** `http://localhost:5173`
-- **REST API Endpoints:** `http://localhost:5000/api/overview`
+
+Open browser at:
+- **Interactive UI:** `http://localhost:5173`
+- **REST API:** `http://localhost:5000/api/overview`
 
 ---
 
-## 📁 Repository Directory Structure
+## ☁️ Production & Vercel Deployment
 
-```
-/home/hemakumar_t3/ipl-bigdata/
-├── backend/                  # Flask REST API service
-│   ├── app.py                # App entrypoint and CORS config
-│   ├── config.py             # Database and directory settings
-│   ├── routes/               # REST API endpoints (/api/*)
-│   ├── services/             # MySQL, MongoDB & Analytical services
-│   └── tests/                # 10 automated backend pytest tests
-├── data/
-│   ├── raw/                  # Original raw CSV (1,169 matches)
-│   ├── processed/            # Cleaned CSV & TSV datasets
-│   └── semi_structured/      # JSON Lines and match summary texts
-├── docs/                     # Academic documentation
-│   ├── architecture.md       # Architectural blueprints & Mermaid diagrams
-│   ├── data_dictionary.md    # Field specifications and canonical mappings
-│   ├── implementation.md     # Step-by-step engineering implementation guide
-│   ├── test_report.md        # Automated validation test report
-│   ├── viva_questions.md     # 25 in-depth academic viva questions & answers
-│   └── environment_report.md # Environment audit and configuration details
-├── frontend/                 # React 18 + Vite + Recharts Dashboard
-│   ├── src/                  # Components, pages, and services
-│   ├── package.json          # Frontend dependencies
-│   └── vite.config.js        # Vite build and proxy configuration
-├── hive/                     # Apache Hive schema and analytical HQL scripts
-├── output/                   # Reconciled output datasets
-│   ├── hive/                 # Hive MapReduce outputs
-│   ├── mongodb/              # MongoDB aggregation JSON outputs
-│   ├── mysql/                # MySQL exported analytical CSVs
-│   └── pig/                  # Apache Pig MapReduce outputs
-├── pig/                      # Apache Pig Latin dataflow scripts
-├── scripts/                  # Automated pipelines, ETL, and validation scripts
-├── sql/                      # Relational schema and queries
-└── tests/                    # Pipeline integration tests
-```
-
----
-
-## 🎓 Academic Documentation Reference
-
-For academic defense, evaluation, and project presentation, refer to the dedicated guides in `docs/`:
-- **[System Architecture](docs/architecture.md):** Architectural design, flow diagrams, and polyglot persistence models.
-- **[Data Dictionary](docs/data_dictionary.md):** Complete attribute specifications and canonical franchise transformations.
-- **[Implementation Guide](docs/implementation.md):** Technical challenges, JVM fixes, and execution runbooks.
-- **[Test Report](docs/test_report.md):** Empirical proof of 100% parity across all 4 compute engines.
-- **[Viva Voce Guide](docs/viva_questions.md):** 25 detailed viva questions covering HDFS, MapReduce, Pig, Hive, MySQL, and MongoDB.
+- **Frontend Deployment:** Deploy the React app on Vercel. Set the environment variable `VITE_API_BASE_URL` to point to the deployed backend URL (or leave empty if deployed with serverless entrypoint).
+- **Vercel Serverless Integration:** `api/index.py` and `vercel.json` allow full-stack serverless execution directly on Vercel with zero external hosting needed.
+- **Data Availability:** The backend includes a Centralized Analytics Layer that loads the verified dataset (`data/processed/ipl_clean.csv`) seamlessly when local WSL MySQL/MongoDB are unreachable in cloud environments.

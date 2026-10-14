@@ -6,6 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
 class Config:
+    BASE_DIR = BASE_DIR
     PROJECT_NAME = "IPL Big Data Analytics Engine"
     VERSION = "2.0.0"
     
